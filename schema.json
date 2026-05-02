@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "features": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Mean",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Mean",
+    "Flow IAT Mean",
+    "Flow IAT Max",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "SYN Flag Count",
+    "ACK Flag Count"
+  ],
+  "label_column": "Label"
+}
