@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3352,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2644,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3108,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3314,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3308,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.135,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2644,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3343,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2619,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.994,
+    "is_anomaly": false,
+    "anomaly_score": 0.2776,
+    "class_probabilities": {
+      "BENIGN": 0.006,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.994
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3328,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.994,
+    "is_anomaly": false,
+    "anomaly_score": 0.2787,
+    "class_probabilities": {
+      "BENIGN": 0.006,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.994
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 0.9888,
+    "is_anomaly": false,
+    "anomaly_score": 0.2068,
+    "class_probabilities": {
+      "BENIGN": 0.9888,
+      "DDoS": 0.0112,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1332,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3328,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1506,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2738,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9976,
+    "is_anomaly": false,
+    "anomaly_score": 0.2792,
+    "class_probabilities": {
+      "BENIGN": 0.0024,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9976
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9949,
+    "is_anomaly": false,
+    "anomaly_score": 0.2802,
+    "class_probabilities": {
+      "BENIGN": 0.0051,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9949
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2115,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 1.0
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2282,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1415,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3307,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1366,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 28,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.142,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 29,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1322,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 30,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 31,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.999,
+    "is_anomaly": false,
+    "anomaly_score": 0.2792,
+    "class_probabilities": {
+      "BENIGN": 0.001,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.999
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 32,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1335,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 33,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 34,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 35,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1312,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 36,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1503,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 37,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1332,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 38,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 39,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3319,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 40,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 41,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9934,
+    "is_anomaly": false,
+    "anomaly_score": 0.2787,
+    "class_probabilities": {
+      "BENIGN": 0.0066,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9934
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 42,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 43,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2858,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 44,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2734,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 45,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.7308,
+    "is_anomaly": false,
+    "anomaly_score": 0.3286,
+    "class_probabilities": {
+      "BENIGN": 0.2692,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.7308
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 46,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0252,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 47,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0235,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 48,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9172,
+    "is_anomaly": false,
+    "anomaly_score": 0.2792,
+    "class_probabilities": {
+      "BENIGN": 0.0828,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9172
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 49,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3295,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 50,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1475,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 51,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3182,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 52,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9995,
+    "is_anomaly": false,
+    "anomaly_score": 0.2776,
+    "class_probabilities": {
+      "BENIGN": 0.0005,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9995
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 53,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1369,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 54,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.155,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 55,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 56,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3328,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 57,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1275,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 58,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 59,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 60,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9995,
+    "is_anomaly": false,
+    "anomaly_score": 0.277,
+    "class_probabilities": {
+      "BENIGN": 0.0005,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9995
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 61,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9998,
+    "is_anomaly": false,
+    "anomaly_score": 0.2792,
+    "class_probabilities": {
+      "BENIGN": 0.0002,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9998
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 62,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.84,
+    "is_anomaly": false,
+    "anomaly_score": 0.2003,
+    "class_probabilities": {
+      "BENIGN": 0.16,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.84
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 63,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 64,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1305,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 65,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 0.97,
+    "is_anomaly": false,
+    "anomaly_score": 0.3291,
+    "class_probabilities": {
+      "BENIGN": 0.02,
+      "DDoS": 0.97,
+      "PortScan": 0.01,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 66,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.999,
+    "is_anomaly": false,
+    "anomaly_score": 0.2794,
+    "class_probabilities": {
+      "BENIGN": 0.001,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.999
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 67,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 68,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1402,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 69,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 70,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 71,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1158,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 72,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 73,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 74,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.318,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 75,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1659,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 76,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1461,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 77,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3167,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 78,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.994,
+    "is_anomaly": false,
+    "anomaly_score": 0.2787,
+    "class_probabilities": {
+      "BENIGN": 0.006,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.994
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 79,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1453,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 80,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0299,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 81,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 82,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 83,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9955,
+    "is_anomaly": false,
+    "anomaly_score": 0.2795,
+    "class_probabilities": {
+      "BENIGN": 0.0045,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9955
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 84,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 0.96,
+    "is_anomaly": false,
+    "anomaly_score": 0.0126,
+    "class_probabilities": {
+      "BENIGN": 0.96,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.04
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 85,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1549,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 86,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9945,
+    "is_anomaly": false,
+    "anomaly_score": 0.2801,
+    "class_probabilities": {
+      "BENIGN": 0.0055,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9945
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 87,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0227,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 88,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.02,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 89,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9967,
+    "is_anomaly": false,
+    "anomaly_score": 0.277,
+    "class_probabilities": {
+      "BENIGN": 0.0033,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9967
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 90,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "BENIGN",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2822,
+    "class_probabilities": {
+      "BENIGN": 1.0,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "BENIGN"
+  },
+  {
+    "id": 91,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 92,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0248,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 93,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0257,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 94,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9967,
+    "is_anomaly": false,
+    "anomaly_score": 0.277,
+    "class_probabilities": {
+      "BENIGN": 0.0033,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9967
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 95,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3287,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 96,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "Web Attack",
+    "confidence": 0.9949,
+    "is_anomaly": false,
+    "anomaly_score": 0.2795,
+    "class_probabilities": {
+      "BENIGN": 0.0051,
+      "DDoS": 0.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.9949
+    },
+    "actual": "Web Attack"
+  },
+  {
+    "id": 97,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.2866,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 98,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "PortScan",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.3277,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 0.0,
+      "PortScan": 1.0,
+      "Web Attack": 0.0
+    },
+    "actual": "PortScan"
+  },
+  {
+    "id": 99,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.1471,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  },
+  {
+    "id": 100,
+    "timestamp": "2026-05-31 18:41:18",
+    "prediction": "DDoS",
+    "confidence": 1.0,
+    "is_anomaly": false,
+    "anomaly_score": 0.0371,
+    "class_probabilities": {
+      "BENIGN": 0.0,
+      "DDoS": 1.0,
+      "PortScan": 0.0,
+      "Web Attack": 0.0
+    },
+    "actual": "DDoS"
+  }
+]
