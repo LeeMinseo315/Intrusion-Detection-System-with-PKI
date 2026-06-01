@@ -37,7 +37,6 @@ y_test = test_df['Label'].reset_index(drop=True)
 # predictions.json 생성 함수
 # ==========================================
 def generate_predictions(n_samples=100):
-    # X랑 y 인덱스 맞추기
     idx = X_test.sample(n=n_samples, random_state=42).index
     samples = X_test.loc[idx].reset_index(drop=True)
     y_samples = y_test.loc[idx].reset_index(drop=True)
@@ -47,9 +46,18 @@ def generate_predictions(n_samples=100):
     pred_classes = rf_model.predict(X_rf)
     pred_probas = rf_model.predict_proba(X_rf)
 
-    # ISO 예측 (컬럼명 변환)
+    # ISO 예측
     X_iso = samples[features_iso]
-    iso_preds = iso_model.predict(X_iso)
+
+    # 1차: 규칙 필터 (TLS 미성립)
+    rule_anomaly = (X_iso['tls_established'] == 0).astype(int)
+
+    # 2차: IF 모델
+    iso_raw = iso_model.predict(X_iso)
+    if_anomaly = (pd.Series(iso_raw) == -1).astype(int)
+
+    # 둘 중 하나라도 이상치면 이상치
+    iso_preds_combined = ((rule_anomaly.values == 1) | (if_anomaly.values == 1))
     iso_scores = iso_model.decision_function(X_iso)
 
     predictions = []
@@ -59,7 +67,7 @@ def generate_predictions(n_samples=100):
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "prediction": label_map[int(pred_classes[i])],
             "confidence": round(float(max(pred_probas[i])), 4),
-            "is_anomaly": bool(iso_preds[i] == -1),
+            "is_anomaly": bool(iso_preds_combined[i]),
             "anomaly_score": round(float(iso_scores[i]), 4),
             "class_probabilities": {
                 "BENIGN": round(float(pred_probas[i][0]), 4),
@@ -132,7 +140,6 @@ def stats():
 # ==========================================
 # mTLS 설정
 # ==========================================
-
 if __name__ == "__main__":
     print("Flask 서버 시작 중...")
 
@@ -145,8 +152,3 @@ if __name__ == "__main__":
     context.verify_mode = ssl.CERT_REQUIRED
 
     app.run(host="0.0.0.0", port=5000, ssl_context=context)
-
-# app.py 맨 아래 이렇게 수정
-#if __name__ == "__main__":
-#    print("Flask 서버 시작 중...")
-#    app.run(host="0.0.0.0", port=5000, debug=True)
