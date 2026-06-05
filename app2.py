@@ -57,7 +57,14 @@ y_test = test_df['Label'].reset_index(drop=True)
 # predictions.json 생성 함수
 # ==========================================
 def generate_predictions(n_samples=100):
-    idx = X_test.sample(n=n_samples, random_state=42).index
+    # 수정 1: 층화 샘플링
+    tls_0 = X_test[X_test['tls_established'] == 0]
+    tls_1 = X_test[X_test['tls_established'] == 1]
+    n_tls_0 = int(n_samples * len(tls_0) / len(X_test))
+    n_tls_1 = n_samples - n_tls_0
+    idx_0 = tls_0.sample(n=n_tls_0, random_state=42).index
+    idx_1 = tls_1.sample(n=n_tls_1, random_state=42).index
+    idx = idx_0.append(idx_1)
     samples = X_test.loc[idx].reset_index(drop=True)
     y_samples = y_test.loc[idx].reset_index(drop=True)
 
@@ -68,15 +75,9 @@ def generate_predictions(n_samples=100):
 
     # ISO 예측
     X_iso = samples[features_iso]
-
-    # 1차: 규칙 필터 (TLS 미성립)
     rule_anomaly = (X_iso['tls_established'] == 0).astype(int)
-
-    # 2차: IF 모델
     iso_raw = iso_model.predict(X_iso)
     if_anomaly = (pd.Series(iso_raw) == -1).astype(int)
-
-    # 둘 중 하나라도 이상치면 이상치
     iso_preds_combined = ((rule_anomaly.values == 1) | (if_anomaly.values == 1))
     iso_scores = iso_model.decision_function(X_iso)
 
@@ -89,6 +90,8 @@ def generate_predictions(n_samples=100):
             "confidence": round(float(max(pred_probas[i])), 4),
             "is_anomaly": bool(iso_preds_combined[i]),
             "anomaly_score": round(float(iso_scores[i]), 4),
+            # 수정 2: tls_established 추가
+            "tls_established": int(samples.iloc[i]['tls_established']),
             "class_probabilities": {
                 "BENIGN": round(float(pred_probas[i][0]), 4),
                 "DDoS": round(float(pred_probas[i][1]), 4),
@@ -97,12 +100,14 @@ def generate_predictions(n_samples=100):
             },
             "actual": label_map[int(y_samples.iloc[i])]
         })
-    if pred_classes[i] != 0 or iso_preds_combined[i]:
-        send_alert(
-            label_map[int(pred_classes[i])],
-            round(float(iso_scores[i]), 4),
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        )
+        # 수정 3: send_alert for 루프 안으로 이동
+        if pred_classes[i] != 0 or iso_preds_combined[i]:
+            send_alert(
+                label_map[int(pred_classes[i])],
+                round(float(iso_scores[i]), 4),
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            )
+
     with open('predictions.json', 'w') as f:
         json.dump(predictions, f, indent=2, ensure_ascii=False)
 
@@ -161,6 +166,34 @@ def stats():
         })
     except FileNotFoundError:
         return jsonify({"error": "predictions.json이 없어요!"}), 404
+    
+@app.route('/inject_spy', methods=['GET'])
+def inject_spy():
+    spy_df = pd.read_csv('spy_data.csv')
+    X_rf = spy_df[features_18]
+    X_iso = spy_df[features_iso]
+
+    pred = rf_model.predict(X_rf)
+    proba = rf_model.predict_proba(X_rf)
+    iso_pred = iso_model.predict(X_iso)
+    iso_score = iso_model.decision_function(X_iso)
+
+    is_anomaly = bool(iso_pred[0] == -1)
+
+    if is_anomaly:
+        send_alert(
+            "스파이 트래픽",
+            round(float(iso_score[0]), 4),
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        )
+
+    return jsonify({
+        "rf_prediction": label_map[int(pred[0])],
+        "rf_confidence": round(float(max(proba[0])), 4),
+        "is_anomaly": is_anomaly,
+        "anomaly_score": round(float(iso_score[0]), 4),
+        "message": "내부 이상 행위 감지!" if is_anomaly else "정상"
+    })
 
 # ==========================================
 # mTLS 설정
