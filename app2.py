@@ -200,4 +200,11 @@ def inject_spy():
 # ==========================================
 if __name__ == "__main__":
     print("Flask 서버 시작 중...")
-    app.run(host="0.0.0.0", port=5000)
+    context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+    context.load_cert_chain(
+        certfile="server_chain.crt",
+        keyfile="server.key"
+    )
+    context.load_verify_locations(cafile="ca.crt")
+    context.verify_mode = ssl.CERT_REQUIRED
+    app.run(host="0.0.0.0", port=5000, ssl_context=context)
